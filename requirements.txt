@@ -1,0 +1,14 @@
+# Core (abhi wali code ke liye)
+numpy
+opencv-python-headless
+scikit-learn
+tqdm
+pillow
+
+# Proposal ke baaki hisse ke liye
+scikit-image        # HOG features
+matplotlib          # Confusion matrix aur graphs
+seaborn             # Heatmaps
+pandas
+tensorflow          # VGG16 / ResNet50 transfer learning (Python 3.11 ya 3.12 chahiye)
+streamlit           # Dashboard

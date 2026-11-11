@@ -1,0 +1,15 @@
+# Python / environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Data (bohat bari files, GitHub par nahi jani chahiye)
+dataset/
+*.npy
+*.npz
+
+# Generated (dobara ban sakti hain)
+features/
+models/
+!splits.npz
