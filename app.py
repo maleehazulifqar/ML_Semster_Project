@@ -31,7 +31,7 @@ MODEL_PATH = os.path.join(BASE_DIR, "models", "dual_head_resnet50.keras")
 DL_RESULTS_PATH = os.path.join(BASE_DIR, "results", "pretrained_dual_head_results.json")
 BASELINE_CSV_PATH = os.path.join(BASE_DIR, "results", "baseline_summary.csv")
 ASSETS_DIR = os.path.join(BASE_DIR, "assets")
-
+MODEL_URL = "https://huggingface.co/aiimii7744/neu-surface-defect-resnet50/resolve/main/dual_head_resnet50.keras"
 
 def find_asset_file(base_name: str) -> str | None:
     for ext in [".jpg", ".jpeg", ".png", ".webp", ".jpg.jpg", ".png.png"]:
